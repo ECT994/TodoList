@@ -1,0 +1,136 @@
+body {
+    background-image:url("/image/background-todolist.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#container {
+    background-color: white;
+    width: 700px;
+    min-height: 500px;
+    margin: 50px auto 0 auto;    
+    border-radius: 15px;
+    border: solid black 2px;
+}
+
+h1 {
+    font-size: 100px;
+    color: red;
+    text-align: center;
+}
+
+.text-position {
+    text-align: left;
+    margin-left: 20px;
+    overflow-wrap: break-word;
+}
+
+.task-wrap {
+    margin-top: 20px;
+    border: solid 1px black;
+    margin-right: 20px;
+    border-radius: 15px;  
+    margin-bottom: 10px;
+    min-height: 50px;
+    padding-top: 1%;
+    background-color: #92a8d1;
+}
+
+
+.task-date {
+    margin-left: 30px;
+    font-size: 20px;
+    color: darkblue;
+}
+
+#task-content {
+    margin-left: 3%;
+    margin-right: 3%;
+    border: solid red 1px;
+    border-radius: 15px;
+}
+
+
+#task-category {
+    border: solid red 1px;
+    color: black;
+    font-family: bold;
+    border-radius: 15px;
+}
+
+.task-text {
+    margin-left: 3%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+#task-add-button {
+    background-color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bin-delete {
+    float: right;
+    margin-right: 20px;
+    opacity: 10;
+    border: 0;
+    background: none;
+}
+
+.bin-delete:hover {
+    opacity: 100;
+    color: red;
+    transform: scale(1.5);
+}
+
+.category-color {
+    margin-right: 10px;
+    border: solid 3px red;
+    margin-left: 20px;
+}
+
+.category-color.Sport {
+    border-color: blue;
+}
+
+.category-color.Shopping {
+    border-color:yellow;
+}
+
+.category-color.Generic {
+    border-color:purple;
+}
+
+
+.done {
+    background-color: lightgreen;
+    font-weight: bold;
+    text-decoration: line-through crimson;
+}
+
+.edit {
+    margin-left: 10px;
+    border: 0;
+    background-color: #92a8d1;
+    color: yellow;
+}
+
+.edit:hover {
+    transform: scale(1.5);
+}
+
+
+.input-text-update {
+    font-weight: bold;
+    color: black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#task-counter {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
